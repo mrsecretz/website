@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+  </head>
+  
+  <body>
+	  
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Programmer Indonesia</a>
+			
+			<button type="type" class="navbar-toggle" data-toggle="collapse" data-target="#target-list">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="target-list">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Deface</a></li>
+				<li><a href="#">Programming</a></li>
+				<li><a href="#">Networking</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<h1>Mr Secretz Was Here</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
